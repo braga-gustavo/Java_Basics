@@ -1,4 +1,4 @@
-package sintax.Javadocs;
+package sintax.javadocs;
 
 /**
 * <h1>Calculator</h1>
@@ -20,5 +20,7 @@ public class Calculator {
    */
     public int somar(int numeroUm, int numeroDois) {
         return  numeroUm + numeroDois;
+       
     }
+
 }

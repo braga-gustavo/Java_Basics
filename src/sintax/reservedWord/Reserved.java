@@ -1,4 +1,4 @@
-package sintax.ReservedWord;
+package sintax.reservedWord;
 
 public class Reserved {
 

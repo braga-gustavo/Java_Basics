@@ -1,4 +1,4 @@
-package sintax.String;
+package sintax.string;
 public class StringConcat {
     public static void main(String[] args) throws Exception {
         String firstName = "John";
