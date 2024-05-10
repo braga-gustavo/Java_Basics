@@ -1,29 +1,27 @@
-# Revisão de Java Básico 📚
+# Basic Java Review 📚
+This repository contains review codes about Basic Java. It is intended to help those who are learning Java and wish to review the basic concepts.
 
-Este repositório contém códigos de revisão sobre **Java básico**. Ele é destinado a ajudar aqueles que estão aprendendo Java e desejam revisar os conceitos básicos.
+## Content 📖
+The repository includes reviews on the following topics:
 
-## Conteúdo 📖
+1. **Basic Java Syntax**
+2. **Control Structures** (if-else, switch-case, loops)
+3. **Classes and Objects**
+4. **Inheritance and Polymorphism**
+5. **Collections in Java (List, Set, Map)**
+6. **Exceptions**
 
-O repositório inclui revisões sobre os seguintes tópicos:
+## How to use this repository 🚀
+To use this repository, you can clone it to your local machine using the following command:
 
-1. **Sintaxe básica de Java**
-2. **Estruturas de controle** (if-else, switch-case, loops)
-3. **Classes e Objetos**
-4. **Herança e Polimorfismo**
-5. **Coleções em Java** (List, Set, Map)
-6. **Exceções**
-
-## Como usar este repositório 🚀
-
-Para usar este repositório, você pode cloná-lo para sua máquina local usando o seguinte comando:
-
-```bash
+```bash 
 git clone https://github.com/braga-gustavo/java_basics.git
+ ```
 
-Depois disso, você pode abrir os arquivos .java em seu IDE favorito e começar a aprender!
+After that, you can open the .java files in your favorite IDE and start learning!
 
-Contribuição 🤝
-Contribuições são sempre bem-vindas! Se você tem algum código de revisão que gostaria de adicionar, sinta-se à vontade para abrir um Pull Request.
+## Contribution 🤝
+Contributions are always welcome! If you have any review code that you would like to add, feel free to open a Pull Request.
 
-Licença 📄
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para mais detalhes.
+## License 📄
+This project is licensed under the MIT license - see the LICENSE.md file for more details.
