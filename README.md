@@ -1,5 +1,5 @@
 # Basic Java Review 📚
-This repository contains review codes about Basic Java. It is intended to help those who are learning Java and wish to review the basic concepts.
+This repository contains review codes about Basic Java. It is intended to help those who are learning Java and wish to review the basic concepts with some examples
 
 ## Content 📖
 The repository includes reviews on the following topics:
