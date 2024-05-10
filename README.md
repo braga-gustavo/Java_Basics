@@ -1,18 +1,29 @@
-## Getting Started
+# Revisão de Java Básico 📚
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém códigos de revisão sobre **Java básico**. Ele é destinado a ajudar aqueles que estão aprendendo Java e desejam revisar os conceitos básicos.
 
-## Folder Structure
+## Conteúdo 📖
 
-The workspace contains two folders by default, where:
+O repositório inclui revisões sobre os seguintes tópicos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. **Sintaxe básica de Java**
+2. **Estruturas de controle** (if-else, switch-case, loops)
+3. **Classes e Objetos**
+4. **Herança e Polimorfismo**
+5. **Coleções em Java** (List, Set, Map)
+6. **Exceções**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como usar este repositório 🚀
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para usar este repositório, você pode cloná-lo para sua máquina local usando o seguinte comando:
 
-## Dependency Management
+```bash
+git clone https://github.com/braga-gustavo/java_basics.git
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Depois disso, você pode abrir os arquivos .java em seu IDE favorito e começar a aprender!
+
+Contribuição 🤝
+Contribuições são sempre bem-vindas! Se você tem algum código de revisão que gostaria de adicionar, sinta-se à vontade para abrir um Pull Request.
+
+Licença 📄
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE.md para mais detalhes.
