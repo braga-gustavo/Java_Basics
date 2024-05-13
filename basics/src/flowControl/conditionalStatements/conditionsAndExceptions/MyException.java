@@ -1,8 +1,8 @@
 package flowControl.conditionalStatements.conditionsAndExceptions;
 
-public class minhaExecao extends Exception {
+public class MyException extends Exception {
 
-    public minhaExecao(String mensagem) {
+    public MyException(String mensagem) {
         super(mensagem);
     }
 

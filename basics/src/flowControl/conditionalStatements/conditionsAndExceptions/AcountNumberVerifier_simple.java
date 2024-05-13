@@ -1,17 +1,17 @@
 //Implementação Simples
 import java.util.Scanner;
-public class Main {
+public class AcountNumberVerifier_simple {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
     
-        String numeroDaConta = scanner.nextLine();
+        String accountNumber = scanner.nextLine();
         try {
-            if (numeroDaConta.length() != 8) {
+            if (accountNumber.length() != 8) {
                 throw new IllegalArgumentException();
             }
-            System.out.println("Numero de conta valido.");
+            System.out.println("Invalid account number.");
         } catch (IllegalArgumentException e) {
-            System.out.println("Erro: Numero de conta invalido. Digite exatamente 8 digitos.");
+            System.out.println("Error: Account number invalid. Please inser exactly 8 digits.");
         }
     }
 }
