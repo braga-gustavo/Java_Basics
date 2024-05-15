@@ -1,0 +1,5 @@
+{
+  "java.format.settings.url": "eclipse-formatter.xml",
+  "editor.defaultFormatter": "dotdevru.prettier-java",
+  "editor.formatOnSave": true
+}

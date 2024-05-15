@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TernaryOperator",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.TernaryOperator",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "AccountEligibityVerifier",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.conditionsLoopsAndExceptions.AccountEligibityVerifier",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "AccountNumberVerifier_complete",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.conditionsLoopsAndExceptions.AccountNumberVerifier_complete",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "AcountNumberVerifier_simple",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.conditionsLoopsAndExceptions.AcountNumberVerifier_simple",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "DailyWithdrawVerifier",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.conditionsLoopsAndExceptions.DailyWithdrawVerifier",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "OverdraftVerification",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.conditionsLoopsAndExceptions.OverdraftVerification",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "Continue",
+            "request": "launch",
+            "mainClass": "flowControl.conditionalStatements.continueStatement.Continue",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "objectOrientation.veichleExample.controller.Driver",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "User",
+            "request": "launch",
+            "mainClass": "sintax.smartTvExample.User",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        },
+        {
+            "type": "java",
+            "name": "StringConcat",
+            "request": "launch",
+            "mainClass": "sintax.string.StringConcat",
+            "projectName": "desafio_codigo_condições_loops_b81b68d4"
+        }
+    ]
+}
