@@ -29,7 +29,7 @@ public class Product {
 
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
+
         return "Name: "
                 .concat(this.getName())
                 .concat(", ")
