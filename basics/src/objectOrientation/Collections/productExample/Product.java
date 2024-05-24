@@ -1,4 +1,4 @@
-package productExample;
+package Collections.productExample;
 
 /**
  * Product

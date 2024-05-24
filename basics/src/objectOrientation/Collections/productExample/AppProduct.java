@@ -1,4 +1,4 @@
-package productExample;
+package Collections.productExample;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -26,15 +26,24 @@ public class AppProduct {
         System.out.println("Second product on the list is => ".concat(String.valueOf(products.get(1))));
 
         System.out.println("=============");
-        System.out.println("List printed without for");
-        System.out.println("=============");
-
+        System.out.println("List printed without for: \n");
         System.out.println("Full product list: ".concat(products.toString()));
+        System.out.println("\n");
 
         System.out.println("=============");
-        System.out.println("List printed with for");
+        System.out.println("List printed with for: \n");
         for (Product item : products) {
             System.out.println(item);
         }
+        System.out.println("=============");
+        System.out.println("\n");
+        System.out.println("List printed with forEach: \n");
+        products.forEach(product -> System.out.println(product));
+        System.out.println("\n");
+
+        System.out.println("=============");
+        System.out.println("List printed with methodReference: \n");
+        products.forEach(System.out::println);
+
     }
 }

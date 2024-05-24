@@ -1,7 +1,7 @@
-package objectOrientation.veichleExample.controller;
+package veichleExample.controller;
 
-import objectOrientation.veichleExample.model.CombustionCar;
-import objectOrientation.veichleExample.model.ElectricCar;
+import veichleExample.model.CombustionCar;
+import veichleExample.model.ElectricCar;
 
 public class Driver {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package objectOrientation.veichleExample.model;
+package veichleExample.model;
 
 public interface Combustion {
 

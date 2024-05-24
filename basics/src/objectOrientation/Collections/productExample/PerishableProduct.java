@@ -1,4 +1,4 @@
-package productExample;
+package Collections.productExample;
 
 import java.time.LocalDate;
 import java.util.Date;
