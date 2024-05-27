@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 import Collections.AnimalExample.Animal;
 import Collections.AnimalExample.Dog;
@@ -80,5 +81,9 @@ public class DisctincsObjects {
                 biggerAccount = account;
             }
            System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountNumber())));
+            
+           
+        Collections.sort(accountList);
+        System.out.println("Accounts ordered by number: " .concat(String.valueOf(accountList))); 
         }
-    }
+}

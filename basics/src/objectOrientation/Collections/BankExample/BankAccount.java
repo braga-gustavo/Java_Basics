@@ -1,6 +1,6 @@
 package Collections.BankExample;
 
-public class BankAccount {
+public class BankAccount implements Comparable<BankAccount>{
     private Double accountBalance;
     private Integer accountNumber;
 
@@ -16,6 +16,19 @@ public class BankAccount {
     public Integer getAccountNumber() {
         return accountNumber;
     }
+
+    @Override
+    public int compareTo(BankAccount otherAccount) {
+            return this.getAccountNumber().compareTo(otherAccount.getAccountNumber());
+    
+    }
+
+    @Override
+    public String toString() {
+        return "BankAccount: " + accountBalance + ", \n" + " accountNumber: " + accountNumber ;
+    }
+
+    
 
 
 }
