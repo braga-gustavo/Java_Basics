@@ -9,4 +9,13 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    public Double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public Integer getAccountNumber() {
+        return accountNumber;
+    }
+
+
 }

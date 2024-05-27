@@ -74,8 +74,11 @@ public class DisctincsObjects {
         accountList.add(account2);    
         accountList.add(account3);
         
-        // for (BankAccount account: accountList) {
-        //    System.out.println("Accounts: ".concat(String.valueOf(account.)));
-        // }TODO: Terminar
+        BankAccount biggerAccount = accountList.get(0);
+        for (BankAccount account: accountList) {
+            if(account.getAccountBalance() > biggerAccount.getAccountBalance());
+                biggerAccount = account;
+            }
+           System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountNumber())));
+        }
     }
-}
