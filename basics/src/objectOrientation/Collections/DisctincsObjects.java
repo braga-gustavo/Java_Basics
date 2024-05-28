@@ -2,6 +2,7 @@ package Collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 
 import Collections.AnimalExample.Animal;
 import Collections.AnimalExample.Dog;
@@ -80,10 +81,16 @@ public class DisctincsObjects {
             if(account.getAccountBalance() > biggerAccount.getAccountBalance());
                 biggerAccount = account;
             }
-           System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountNumber())));
+           System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountBalance())));
             
            
         Collections.sort(accountList);
-        System.out.println("Accounts ordered by number: " .concat(String.valueOf(accountList))); 
+        System.out.println("Accounts ordered by number: " .concat("\n").concat(String.valueOf(accountList))); 
+
+        //Ordered from lower to bigger account number
+        accountList.sort(Comparator.comparing(BankAccount:: getAccountBalance));
+        System.out.println("Accounts orderder by balance: " .concat(String.valueOf(accountList)));
+        
+                                            
         }
 }
