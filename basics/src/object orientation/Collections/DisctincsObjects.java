@@ -1,9 +1,5 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-
 import Collections.AnimalExample.Animal;
 import Collections.AnimalExample.Dog;
 import Collections.AnimalExample.Product;
@@ -11,6 +7,10 @@ import Collections.BankExample.BankAccount;
 import Collections.GeometryExample.Circle;
 import Collections.GeometryExample.GeometricForms;
 import Collections.GeometryExample.Square;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  * DisctincsObjects

@@ -1,7 +1,5 @@
 package TitleExample;
 
-import java.util.Collections;
-
 public class Title implements Comparable<Title>{
 
     private String name;

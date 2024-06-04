@@ -1,4 +1,4 @@
-package api;
+package api.usage.calculations;
 
 public class FiltroRecomendacao {
     private String recomendacao;

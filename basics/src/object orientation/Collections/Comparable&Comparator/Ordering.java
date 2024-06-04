@@ -1,11 +1,9 @@
+import TitleExample.Title;
+
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
-import Collections.BankExample.BankAccount;
-import TitleExample.Title;
 
 public class Ordering {
 
