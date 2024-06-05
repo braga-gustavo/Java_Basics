@@ -2,7 +2,7 @@ package apiusage.challenges.exceptionHandling;
 
 import java.util.Scanner;
 
-public class InvalidDivisonExeception {
+public class InvalidDivison {
 
     public static void main(String[] args) {
 
