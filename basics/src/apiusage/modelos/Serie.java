@@ -1,4 +1,4 @@
-package api.usage.modelos;
+package apiusage.modelos;
 
 public class Serie extends Titulo{
     private int temporadas;

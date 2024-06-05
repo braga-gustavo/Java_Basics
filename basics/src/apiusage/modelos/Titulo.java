@@ -1,6 +1,6 @@
-package api.usage.modelos;
+package apiusage.modelos;
 
-import api.usage.principal.dto.OmdbTitleDTO;
+import apiusage.principal.dto.OmdbTitleDTO;
 
 public class Titulo implements Comparable<Titulo> {
     
@@ -20,7 +20,7 @@ public class Titulo implements Comparable<Titulo> {
     public Titulo(OmdbTitleDTO omdbdto) {
         this.nome = omdbdto.title();
         this.anoDeLancamento = Integer.valueOf(omdbdto.year());
-        this.duracaoEmMinutos = Integer.valueOf(omdbdto.runtime().substring(0, 2));
+        this.duracaoEmMinutos = Integer.valueOf(omdbdto.runtime().substring(0, 3));
     }
 
     public String getNome() {

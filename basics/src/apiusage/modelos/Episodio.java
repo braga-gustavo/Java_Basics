@@ -1,6 +1,6 @@
-package api.usage.modelos;
+package apiusage.modelos;
 
-import api.usage.calculations.Classificavel;
+import apiusage.calculations.Classificavel;
 
 public class Episodio implements Classificavel {
     private int numero;

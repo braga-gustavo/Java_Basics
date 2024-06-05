@@ -1,4 +1,4 @@
-package api.usage.calculations;
+package apiusage.calculations;
 
 public interface Classificavel {
     int getClassificacao();

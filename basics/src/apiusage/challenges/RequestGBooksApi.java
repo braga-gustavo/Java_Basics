@@ -1,4 +1,4 @@
-package api.usage.principal;
+package apiusage.challenges;
 
 import java.io.IOException;
 import java.net.URI;

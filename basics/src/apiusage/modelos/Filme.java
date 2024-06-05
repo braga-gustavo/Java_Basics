@@ -1,6 +1,6 @@
-package api.usage.modelos;
+package apiusage.modelos;
 
-import api.usage.calculations.Classificavel;
+import apiusage.calculations.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
     private String diretor;

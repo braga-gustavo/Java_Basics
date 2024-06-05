@@ -1,4 +1,4 @@
-package api.usage.principal;
+package apiusage.principal;
 
 import java.io.IOException;
 import java.net.URI;
@@ -11,8 +11,9 @@ import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import api.usage.modelos.Titulo;
-import api.usage.principal.dto.OmdbTitleDTO;
+import apiusage.modelos.Titulo;
+import apiusage.principal.dto.OmdbTitleDTO;
+
 
 public class RequestOMDBApiApp {
     public static void main(String[] args) throws IOException, InterruptedException {

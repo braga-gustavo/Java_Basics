@@ -1,4 +1,4 @@
-package api.usage.principal.dto;
+package apiusage.principal.dto;
 
 public record OmdbTitleDTO (String title, String year, String runtime) {
     

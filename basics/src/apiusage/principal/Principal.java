@@ -1,12 +1,12 @@
-package api.usage.principal;
+package apiusage.principal;
 
 import java.util.ArrayList;
 
-import api.usage.calculations.CalculadoraDeTempo;
-import api.usage.calculations.FiltroRecomendacao;
-import api.usage.modelos.Episodio;
-import api.usage.modelos.Filme;
-import api.usage.modelos.Serie;
+import apiusage.calculations.CalculadoraDeTempo;
+import apiusage.calculations.FiltroRecomendacao;
+import apiusage.modelos.Episodio;
+import apiusage.modelos.Filme;
+import apiusage.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {

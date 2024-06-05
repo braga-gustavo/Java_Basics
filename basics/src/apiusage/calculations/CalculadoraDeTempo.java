@@ -1,6 +1,6 @@
-package api.usage.calculations;
+package apiusage.calculations;
 
-import api.usage.modelos.Titulo;
+import apiusage.modelos.Titulo;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;
