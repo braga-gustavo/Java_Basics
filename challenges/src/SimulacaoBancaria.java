@@ -17,7 +17,6 @@ public class SimulacaoBancaria {
             //         .concat("\n 4 - Encerrar"));
 
             int opcao = scanner.nextInt();
-            // TODO: Implemente as condições necessárias para avaliaa a opção escolhida:
             // Dica: Utilze o switch/case para o programa realizar as operações escolhidas
             // pelo usuário.
             switch (opcao) {

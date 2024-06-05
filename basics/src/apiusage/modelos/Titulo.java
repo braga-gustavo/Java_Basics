@@ -1,5 +1,6 @@
 package apiusage.modelos;
 
+import apiusage.Exceptions.YearConversionFormatException;
 import apiusage.principal.dto.OmdbTitleDTO;
 
 public class Titulo implements Comparable<Titulo> {
@@ -19,6 +20,9 @@ public class Titulo implements Comparable<Titulo> {
 
     public Titulo(OmdbTitleDTO omdbdto) {
         this.nome = omdbdto.title();
+        if(omdbdto.year().length() > 4){
+            throw new YearConversionFormatException("Year format invalid");
+        }
         this.anoDeLancamento = Integer.valueOf(omdbdto.year());
         this.duracaoEmMinutos = Integer.valueOf(omdbdto.runtime().substring(0, 3));
     }

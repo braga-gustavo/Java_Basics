@@ -1,9 +1,8 @@
-import TitleExample.Title;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
+import TitleExample.Title;
 
 public class Ordering {
 

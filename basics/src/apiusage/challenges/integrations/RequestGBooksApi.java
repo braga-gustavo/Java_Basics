@@ -1,4 +1,4 @@
-package apiusage.challenges;
+package apiusage.challenges.integrations;
 
 import java.io.IOException;
 import java.net.URI;
