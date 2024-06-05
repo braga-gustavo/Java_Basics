@@ -1,4 +1,4 @@
-package Collections.AnimalExample;
+package Collects.AnimalExample;
 
 public class Dog extends Animal {
     

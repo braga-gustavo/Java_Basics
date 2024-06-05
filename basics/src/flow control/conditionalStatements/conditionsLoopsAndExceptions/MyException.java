@@ -1,4 +1,3 @@
-package flowControl.conditionalStatements.conditionsLoopsAndExceptions;
 
 public class MyException extends Exception {
 

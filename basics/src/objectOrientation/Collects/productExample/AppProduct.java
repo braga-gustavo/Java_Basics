@@ -1,4 +1,5 @@
-package Collections.productExample;
+package Collects.productExample;
+
 
 import java.time.LocalDate;
 import java.util.ArrayList;

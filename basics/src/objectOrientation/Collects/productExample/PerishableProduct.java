@@ -1,4 +1,4 @@
-package Collections.productExample;
+package Collects.productExample;
 
 import java.time.LocalDate;
 
@@ -15,12 +15,13 @@ public class PerishableProduct extends Product {
         return expirationDate;
     }
 
+  
    @Override
-   public String toString() {
-       
-       return super.toString()
-       .concat( ", "
-       .concat("Expiration date: " 
-       .concat(String.valueOf(getExpirationDate()))));
-   }
+    public String toString() {
+        return super.toString()
+        .concat( ", "
+        .concat("Expiration date: " 
+        .concat(String.valueOf(getExpirationDate()))));
+    }
+
 }

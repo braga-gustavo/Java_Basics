@@ -1,6 +1,5 @@
 // Complete implementation
-package flowControl.conditionalStatements.conditionsLoopsAndExceptions;
-
+// TODO: Verificar o erro
 import java.util.Scanner;
 public class AccountNumberVerifier_complete {
 

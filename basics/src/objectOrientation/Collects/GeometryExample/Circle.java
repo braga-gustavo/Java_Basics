@@ -1,4 +1,4 @@
-package Collections.GeometryExample;
+package Collects.GeometryExample;
 
 public class Circle implements GeometricForms {
 

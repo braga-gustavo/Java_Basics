@@ -1,16 +1,16 @@
-package Collections;
-
-import Collections.AnimalExample.Animal;
-import Collections.AnimalExample.Dog;
-import Collections.AnimalExample.Product;
-import Collections.BankExample.BankAccount;
-import Collections.GeometryExample.Circle;
-import Collections.GeometryExample.GeometricForms;
-import Collections.GeometryExample.Square;
+package Collects;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+
+import Collects.AnimalExample.Product;
+import Collects.GeometryExample.Circle;
+import Collects.GeometryExample.GeometricForms;
+import Collects.GeometryExample.Square;
+import Collects.AnimalExample.Animal;
+import Collects.AnimalExample.Dog;
+
 
 /**
  * DisctincsObjects
@@ -40,9 +40,9 @@ public class DisctincsObjects {
             System.out.println("no");
         }
 
-        ArrayList<Product> products = new ArrayList<>();
+        ArrayList<C.AnimalExample.Product> products = new ArrayList<>();
         ArrayList<Product> products3 = new ArrayList<>();
-        Product bed = new Product("bed", 500.0);
+        Collects.AnimalExample.Product bed = new Product("bed", 500.0);
         Product airConditioning = new Product("air conditioning", 2500.0);
         products.add(bed);
         products.add(airConditioning);
@@ -62,35 +62,34 @@ public class DisctincsObjects {
         forms.add(square);
         forms.add(circle);
 
-        for (GeometricForms form : forms ){
-            System.out.println("Gemetric form area: " .concat(String.valueOf(form.calculateArea())));
-            
+        for (GeometricForms form : forms) {
+            System.out.println("Gemetric form area: ".concat(String.valueOf(form.calculateArea())));
+
         }
 
         BankAccount account1 = new BankAccount(1320.0, 1337);
         BankAccount account2 = new BankAccount(1930189.0, 31311);
-        BankAccount account3 = new BankAccount(183938.0,7688);
-        
-        ArrayList<BankAccount> accountList = new ArrayList<>();
-        accountList.add(account1);    
-        accountList.add(account2);    
-        accountList.add(account3);
-        
-        BankAccount biggerAccount = accountList.get(0);
-        for (BankAccount account: accountList) {
-            if(account.getAccountBalance() > biggerAccount.getAccountBalance());
-                biggerAccount = account;
-            }
-           System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountBalance())));
-            
-           
-        Collections.sort(accountList);
-        System.out.println("Accounts ordered by number: " .concat("\n").concat(String.valueOf(accountList))); 
+        BankAccount account3 = new BankAccount(183938.0, 7688);
 
-        //Ordered from lower to bigger account number
-        accountList.sort(Comparator.comparing(BankAccount:: getAccountBalance));
-        System.out.println("Accounts orderder by balance: " .concat(String.valueOf(accountList)));
-        
-                                            
+        ArrayList<BankAccount> accountList = new ArrayList<>();
+        accountList.add(account1);
+        accountList.add(account2);
+        accountList.add(account3);
+
+        BankAccount biggerAccount = accountList.get(0);
+        for (BankAccount account : accountList) {
+            if (account.getAccountBalance() > biggerAccount.getAccountBalance())
+                ;
+            biggerAccount = account;
         }
+        System.out.println("Account with most balance: ".concat(String.valueOf(biggerAccount.getAccountBalance())));
+
+        Collections.sort(accountList);
+        System.out.println("Accounts ordered by number: ".concat("\n").concat(String.valueOf(accountList)));
+
+        // Ordered from lower to bigger account number
+        accountList.sort(Comparator.comparing(BankAccount::getAccountBalance));
+        System.out.println("Accounts orderder by balance: ".concat(String.valueOf(accountList)));
+
+    }
 }

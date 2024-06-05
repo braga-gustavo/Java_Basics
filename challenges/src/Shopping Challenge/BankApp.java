@@ -1,5 +1,4 @@
 import java.util.Scanner;
-//TODO TERMINAR ESSA MEDA DEPOIS
 
 public class BankApp {
 
