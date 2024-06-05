@@ -7,6 +7,13 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
 
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import api.usage.modelos.Titulo;
+import api.usage.principal.dto.OmdbTitleDTO;
+
 public class RequestOMDBApiApp {
     public static void main(String[] args) throws IOException, InterruptedException {
 
@@ -23,6 +30,18 @@ public class RequestOMDBApiApp {
                 .uri(URI.create(apiAdress.concat(requestValue.replaceAll(" ", "+")).concat(apiKey))).build();
 
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        System.out.println(response.body());
+
+        String json = response.body();
+        Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE).create();
+
+        OmdbTitleDTO omdbdto = gson.fromJson(json, OmdbTitleDTO.class);
+        System.out.println(omdbdto);
+        Titulo title = new Titulo(omdbdto); 
+        System.out.println("Formated title: ");
+        System.out.println(title);      
+        
+
+
+        
     }
 }
