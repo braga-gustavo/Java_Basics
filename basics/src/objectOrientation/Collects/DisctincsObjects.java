@@ -5,13 +5,12 @@ import java.util.Collections;
 import java.util.Comparator;
 
 import Collects.AnimalExample.Product;
+import Collects.BankJava.*;
 import Collects.GeometryExample.Circle;
 import Collects.GeometryExample.GeometricForms;
 import Collects.GeometryExample.Square;
 import Collects.AnimalExample.Animal;
 import Collects.AnimalExample.Dog;
-
-
 /**
  * DisctincsObjects
  */
@@ -40,7 +39,7 @@ public class DisctincsObjects {
             System.out.println("no");
         }
 
-        ArrayList<C.AnimalExample.Product> products = new ArrayList<>();
+        ArrayList<Product> products = new ArrayList<>();
         ArrayList<Product> products3 = new ArrayList<>();
         Collects.AnimalExample.Product bed = new Product("bed", 500.0);
         Product airConditioning = new Product("air conditioning", 2500.0);

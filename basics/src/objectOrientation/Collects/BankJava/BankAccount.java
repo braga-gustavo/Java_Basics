@@ -1,3 +1,4 @@
+package Collects.BankJava;
 public class BankAccount implements Comparable<BankAccount> {
     private Double accountBalance;
     private Integer accountNumber;

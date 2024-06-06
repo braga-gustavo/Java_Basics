@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-//TODO VER PORQUE NAO CONSIGO IMPORTAR E USAR O TITLE
 public class Ordering {
 
     public static void main(String[] args) {
